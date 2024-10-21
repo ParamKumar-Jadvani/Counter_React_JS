@@ -1,9 +1,11 @@
 import Counter from "./Counter";
+import InstagramPost from "./InstagramPost";
 
 const App = () => {
   return (
     <div>
-      <Counter></Counter>
+      {/* <Counter></Counter> */}
+      <InstagramPost />
     </div>
   );
 };

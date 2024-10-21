@@ -1,0 +1,115 @@
+.instagram-post {
+  width: 400px;
+  margin: 50px auto;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: white;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.profile-pic {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-right: 10px;
+  object-fit: cover;
+}
+
+.username {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.post-image {
+  width: 100%;
+}
+
+.post-photo {
+  width: 100%;
+  display: block;
+}
+
+.post-actions {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+}
+
+.action-btn {
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  transition: all 0.3s;
+  border-radius: 50px;
+}
+
+.action-btn:hover {
+  background-color: #f0f0f0;
+  color: #007bff;
+}
+
+.faicon {
+  background-color: #ececec;
+  padding: 10px;
+  border-radius: 50%;
+  margin-right: 5px;
+  transition: background-color 0.3s;
+}
+
+.action-btn:hover .faicon {
+  background-color: #007bff;
+  color: white;
+}
+
+.comments-section {
+  padding: 10px;
+  border-top: 1px solid #ddd;
+}
+
+.comments-list {
+  max-height: 100px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+
+.comment {
+  margin-bottom: 5px;
+}
+
+.comment-input {
+  display: flex;
+  align-items: center;
+}
+
+.comment-input input {
+  flex: 1;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.comment-input button {
+  margin-left: 5px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.comment-input button:hover {
+  background-color: #0056b3;
+}
